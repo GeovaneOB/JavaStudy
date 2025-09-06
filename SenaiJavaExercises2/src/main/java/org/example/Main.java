@@ -19,7 +19,10 @@ public class Main {
         System.out.println(gerente.toString());
         System.out.println(diretor.toString());
 
+        System.out.println();
+        System.out.println("RELATÓRIOS RH: ");
 
-
+        diretor.admitir(gerente);
+        diretor.admitir(motoboy);
     }
 }
